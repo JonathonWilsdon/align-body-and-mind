@@ -9,7 +9,6 @@ body {
 
 h1{
     font-size: 78px;
-    letter-spacing: -2%;
     line-height: 120%!important;
     color: #ffffff;
     text-align: center;
@@ -148,6 +147,7 @@ section{
     }
 
     .navbar{
+        padding: 0 18px;
         margin-bottom: 0px!important;
     }
 
@@ -161,6 +161,10 @@ section{
 
 #contact{
     border-radius: 24px 24px 0px 0px;
+}
+
+.contact-card img{
+    width: 132px!important;
 }
 
 }
