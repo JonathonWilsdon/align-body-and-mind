@@ -84,15 +84,15 @@ section{
 }
 
 .details h3{
-    margin: 22px 0 0;
+    margin: 22px 0 10px;
     font-size: 26px;
     color: #1b1b1b;
 }
 
-.details span{
-    letter-spacing: 0px;
-    font-size: 14px;
-    color: #353535;
+
+.insta-image{
+    font-size: 14px!important;
+    padding-bottom: 2px;
 }
 
 .contact-info{
@@ -109,6 +109,10 @@ section{
 
 .green{
     color: #89A688!important;
+}
+
+.social-link a{
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 685px){
@@ -162,8 +166,11 @@ section{
 #contact{
     border-radius: 24px 24px 0px 0px;
 }
+.contact-card{
+    max-width: 100%!important;
+}
 
-.contact-card img{
+.profile-image{
     width: 132px!important;
 }
 
