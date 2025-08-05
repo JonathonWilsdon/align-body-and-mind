@@ -1,0 +1,167 @@
+body {
+    margin: 0 auto;
+    padding: 0 18px;
+    box-sizing: border-box;
+    max-width: 1240px;
+    line-height: 1.5;
+    background-color: #F9F1E5;
+}
+
+h1{
+    font-size: 78px;
+    letter-spacing: -2%;
+    line-height: 120%!important;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 68px;
+    font-weight: 600;
+    color: #1B1B1B;
+    font-family: "Playfair Display", serif;
+    letter-spacing: -2%;
+    line-height: 120%!important;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #353535;
+    max-width: 500px;
+}
+header{
+    width: 100%;
+    padding: 96px;
+    background-color: #89A688;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.header-text p{
+    color: #fff;
+    text-align: center;
+    max-width: 560px;
+    margin: 24px auto 0;
+}
+
+header a{
+    padding: 12px 20px;
+    color: #89A688;
+    background-color: #F9F1E5;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 8px;
+    transition: .1s ease-out;
+}
+
+header a:hover{
+    background-color: #f0e8dc;
+    color: #596e59;
+}
+
+section{
+    padding: 96px;
+}
+
+#contact{
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+.contact-card{
+    background-color: #fff;
+    max-width: 362px;
+    box-shadow: 0px 20px 50px #c6d9e16d;
+    border-radius: 24px;
+}
+
+.colum-card{
+    display: flex;
+    justify-content: end;
+}
+
+.details h3{
+    margin: 22px 0 0;
+    font-size: 26px;
+    color: #1b1b1b;
+}
+
+.details span{
+    letter-spacing: 0px;
+    font-size: 14px;
+    color: #353535;
+}
+
+.contact-info{
+    margin-top: 68px;
+}
+
+.contact-info a{
+    margin: 0px;
+    text-decoration: none;
+    color: #353535;
+    font-size: 18px;
+}
+
+
+.green{
+    color: #89A688!important;
+}
+
+@media only screen and (max-width: 685px){
+    h1{
+        font-size: 48px;
+    }
+    
+    h2{
+        font-size: 48px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+
+    header{
+        padding: 24px 18px 40px 18px;
+        border-radius: 0px 0px 24px 24px ;
+
+    }
+
+    body{
+        padding: 0pc;
+    }
+
+    section{
+        padding: 32px 18px;
+    }
+
+    .colum-card{
+        display: inline;
+    }
+
+    .colum-card img{
+        width: 100%;
+    }
+
+    .navbar{
+        margin-bottom: 0px!important;
+    }
+
+    .center-text-h2{
+        text-align: center!important;
+}
+
+.remove-mb{
+    margin: 0px!important;
+}
+
+#contact{
+    border-radius: 24px 24px 0px 0px;
+}
+
+}
+
